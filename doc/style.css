@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Roboto"),
+         url("./assets/fonts/Roboto.woff2") format("woff2"),
+         url("/assets/fonts/Roboto.woff") format("woff"),
+         url("/assets/fonts/Roboto.ttf") format("truetype");    
+} 
+
+.container { 
+    width:666px;
+    max-width: 100%;
+    padding: 0 90px;
+    margin:0 auto;
+    border: 1px solid #000000;
+}
+
+.body {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.company-name {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.address__info {
+    font-size: 10px; 
+    line-height: 1;
+    font-style: normal;
+    letter-spacing: 0.3px;
+}
+
+.title-xl {
+    font-size: 34px;
+    line-height: 1;
+    color: #283592;
+    letter-spacing: 0.8px;
+}
+
+.data {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #e12187;
+    letter-spacing: 0.3px;
+}
+
+.title-lg { 
+    font-size: 21px;
+    line-height: 1;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    margin-bottom: 15px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+    word-spacing: -0.3px;
+}
+
+.text__italic {
+    font-style: italic;
+}
+
+.title-sm {
+  font-size: 12px;
+  line-height: 1;
+  color: #e01B84;
+  font-weight: bold;
+}
+
+.title-md { 
+    font-size: 16px;
+    line-height: 1;
+}
+
+.title-md__italic {
+    font-style: italic;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    margin:  25px 0 32px;
+}
+
+.title-mg {
+    margin-bottom: 12px;
+}
+
+.about-product {
+    margin-bottom: 75px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.text-left {
+    text-align: right;
+}
+
+.page-count {
+    width: 100%;
+    position: relative;
+    counter-reset: pageСount 1;
+}
+
+.page-count::before {
+    counter-increment: pageСount;
+    content: counter(pageСount);
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    font-size: 12px;
+    color: #e01B84;
+
+}
+
+.separator {
+    width: calc(100% + 180px);
+    margin-left: -90px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    height: 20px;
+    background-color: #283593;
+    
+}
