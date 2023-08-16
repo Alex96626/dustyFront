@@ -1,0 +1,25 @@
+[target] {
+	font-family: sans-serif;
+    /* не применится т.е нет атрибута target */
+}
+
+.menu-item {
+	color: black;
+    /* применится но браузерный стиль перетрет этот селектр */
+}
+
+.menu-list > a {
+	font-style: italic;
+    /* не применится. т.к a не является прямым прямым потомком */
+}
+
+[href="meet-css"] {
+	font-size: 20px;
+    /* не применится, т.к нет такого значения href, есть [href="#meet-css"]  */
+
+}
+
+a body {
+	text-transform: uppercase;
+    /* не применится, т.к нет элемента body являющегося дочерним элементом тега <a> */
+}

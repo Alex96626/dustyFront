@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Caveat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Caveat"),
+         url("./fonst/Caveat-Regular.woff2") format("woff2"),
+         url("./fonst/Caveat-Regular.woff") format("woff"),
+         url("./fonst/Caveat-Regular.ttf") format("truetype");    
+} 
+
+.body {
+    font-family: 'Caveat', Helvetica, sans-serif;
+}
+
+p {
+    font-size:34px;
+}
+
+.quote {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 800px;
+    
+}
+
+.quote__text {
+    quotes: '"' '"' "'" "'";
+}
+
+.quote__text::before {
+    content: open-quote;
+}
+
+.quote__text::after {
+    content: close-quote;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+
+.author__name {
+    font-family: 'Georgia', serif;
+}
