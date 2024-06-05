@@ -4,19 +4,19 @@
   box-sizing: border-box;
 } */
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h5 {
   margin: 0;
-  font-weight: normal;
-}
+  font-weight: 400;
+} */
 
 /* @font-face {
     font-family: "Roboto";
@@ -51,6 +51,7 @@ h5 {
   line-height: 1.4;
   font-weight: 700;
   letter-spacing: 0.4px;
+  text-decoration: none;
 }
 
 .address {
@@ -68,11 +69,13 @@ h5 {
   color: #acacac ;
 }
 
-.title-xl {
+.title-main {
+  margin: 0;
   font-size: 34px;
   line-height: 1;
   color: #283592;
   letter-spacing: 0.8px;
+  font-weight: 400;
 }
 
 .data {
@@ -83,10 +86,12 @@ h5 {
 }
 
 .overview-title {
+  margin: 0;
   font-size: 21px;
   line-height: 1;
   text-decoration: underline;
   letter-spacing: 0.5px;
+  font-weight: 400;
 }
 
 .overview-text, .additional-text {
@@ -114,8 +119,10 @@ h5 {
 }
 
 .overview-sub-title {
+  margin: 0;
   font-size: 16px;
   line-height: 1;
+  font-weight: 400;
 }
 
 .overview-sub-title:first-child {
