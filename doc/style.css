@@ -1,49 +1,16 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-/* a {
-  text-decoration: none;
-} */
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h5 {
-  margin: 0;
-  font-weight: 400;
-} */
-
-/* @font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("Roboto"),
-         url("./assets/fonts/Roboto.woff2") format("woff2"),
-         url("/assets/fonts/Roboto.woff") format("woff"),
-         url("/assets/fonts/Roboto.ttf") format("truetype");    
-}  */
-
 .container {
   box-sizing: border-box;
   width: 666px;
-  /* max-width: 100%; */
   overflow: auto;
   padding: 0 90px;
   margin: 0 auto;
-  /* border: 1px solid #000; */
   -webkit-box-shadow: 0px 5px 8px 5px rgba(34, 60, 80, 0.29);
   -moz-box-shadow: 0px 5px 8px 5px rgba(34, 60, 80, 0.29);
   box-shadow: 0px 5px 8px 5px rgba(34, 60, 80, 0.29);
 }
 
 .body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .company-name {
@@ -66,7 +33,7 @@ h5 {
   line-height: 1;
   font-style: normal;
   letter-spacing: 0.3px;
-  color: #acacac ;
+  color: #acacac;
 }
 
 .title-main {
@@ -94,7 +61,8 @@ h5 {
   font-weight: 400;
 }
 
-.overview-text, .additional-text {
+.overview-text,
+.additional-text {
   margin-bottom: 15px;
   font-size: 11px;
   line-height: 1.4;
